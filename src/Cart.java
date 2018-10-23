@@ -85,7 +85,7 @@ public class Cart {
                 myString+=findItem(name,category).toString();
             }
         }
-        myString+="\n--------------------------------------\n\n";
+        myString+="\n-------------------------------------\n\n";
 
         myString+=String.format("%-"+(38-df.format(calculateSubTotal()).length())+"s","SUBTOT")+df.format(subtotal)+"\n\n";
         if (calculateRabat()!=0){
